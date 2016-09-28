@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays1", "Task1\Arrays1.csproj", "{AF75FE9F-68F7-42FF-9376-6E03BCBCB73C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays2", "Arrays2\Arrays2.csproj", "{11E0BF36-8A8E-4E32-9435-F3EC0A921BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF75FE9F-68F7-42FF-9376-6E03BCBCB73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75FE9F-68F7-42FF-9376-6E03BCBCB73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75FE9F-68F7-42FF-9376-6E03BCBCB73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75FE9F-68F7-42FF-9376-6E03BCBCB73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E0BF36-8A8E-4E32-9435-F3EC0A921BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E0BF36-8A8E-4E32-9435-F3EC0A921BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E0BF36-8A8E-4E32-9435-F3EC0A921BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E0BF36-8A8E-4E32-9435-F3EC0A921BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
