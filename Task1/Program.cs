@@ -16,16 +16,17 @@ namespace Task1
             double[] arr = new double[N];
             Random rnd = new Random();
             double sum = 0;
-            int ind2 = 0;
+            int ind2 = 0, count = 0;
             double sum1 = 0, ind = 0, max = 0, maxm = 0;     
             Console.WriteLine("Array: ");
                    
             for (int i = 0; i < N; i++)
             {
-                arr[i] = (101 + 100)*rnd.NextDouble() - 100;
+                arr[i] = rnd.Next(-10,11)/10.0;
                 Console.Write(arr[i] + (i == N - 1 ? "\n" : ", "));
                 if (arr[i] < 0)
                     sum += arr[i];
+                if ((arr[i] - Math.Truncate(arr[i]))*10 == 0) count++;
                 if (arr[i] > max)
                 {
                     max = arr[i];
@@ -43,6 +44,7 @@ namespace Task1
             Console.WriteLine("Сума від'ємних елементів дорівнює " + sum);
             Console.WriteLine("Максимальним за модулем є елемент "+ arr[ind2]);
             Console.WriteLine("Cума індексів додатніх елементів дорівнює "+ sum1);
+            Console.WriteLine("Кількість цілих чисел у массиві: " + count);
             Console.ReadKey();
                    
         }
